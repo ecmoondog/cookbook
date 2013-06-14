@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: cookbook_development
+  pool: 5
+  # username: add username
+  password:
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: cookbook_test
+  pool: 5
+  # username: add username
+  password:
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: cookbook_production
+  pool: 5
+  # username: add username
+  password:
+  host: localhost
