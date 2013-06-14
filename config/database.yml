@@ -3,7 +3,7 @@ development:
   encoding: unicode
   database: cookbook_development
   pool: 5
-  # username: add username
+  username: ericmooney
   password:
   host: localhost
 
@@ -12,7 +12,7 @@ test:
   encoding: unicode
   database: cookbook_test
   pool: 5
-  # username: add username
+  username: ericmooney
   password:
   host: localhost
 
@@ -21,6 +21,6 @@ production:
   encoding: unicode
   database: cookbook_production
   pool: 5
-  # username: add username
+  username: ericmooney
   password:
   host: localhost

@@ -2,8 +2,8 @@ require 'nokogiri'
 require 'open-uri'
 require 'twilio-ruby'
 
-# account_sid = '' add my sid
-# auth_token = '' add my token
+account_sid = ENV["TWILIO_ID"]
+auth_token = ENV["TWILIO_SECRET"]
 @client = Twilio::REST::Client.new account_sid, auth_token
 
 
