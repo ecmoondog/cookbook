@@ -17,8 +17,8 @@ auth_token = ENV["TWILIO_SECRET"]
     :description => "#{food_description}"
     )
     @client.account.sms.messages.create(
-      # :from => '+', add twilio number
-      # :to => '+',  add personal number
+      :from => ENV["TWILIO_NUMBER"],
+      :to => ENV["MY_NUM"],
       :body => "Hey there, your #{food_title} recipe was created with the seed file!"
     )
   end
